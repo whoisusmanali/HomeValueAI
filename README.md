@@ -84,6 +84,11 @@ Lastly, Latitude and Longitude of the Cities.
 
 # Screen Shots
 
+### Application:
+<img width="1470" alt="Screenshot 2024-08-30 at 6 47 12 PM" src="https://github.com/user-attachments/assets/c033ec10-1797-4951-a6b6-bd28fbedece6">
+
+
+
 ### EDA
 
 ![newplot (2)](https://user-images.githubusercontent.com/104086680/229906408-2b94758c-00d8-47dd-89f5-9e97c6575898.png)
