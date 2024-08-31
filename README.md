@@ -376,9 +376,9 @@ The dataset comprises comprehensive information about real estate listings, incl
 ## Contact
 
 **Your Name**
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your LinkedIn Profile]([https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/usman-ali-06a6351b1/))
-- **GitHub**: [Your GitHub Profile]([https://github.com/yourusername](https://github.com/whoisusmanali))
-- **Portfolio**: [Your Portfolio Website](https://yourportfolio.com)
+- **Email**: whoisusmanali@gmail.com
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/usman-ali-06a6351b1/)
+- **GitHub**: [GitHub Profile](https://github.com/whoisusmanali)
+- **Portfolio**: [Portfolio Website](https://yourportfolio.com)
 
 *Feel free to reach out for collaboration, queries, or any opportunities related to data science and machine learning.*
