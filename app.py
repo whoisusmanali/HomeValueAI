@@ -1,4 +1,4 @@
-#/Users/usmanali/Uwindsor/AI/House_Price_Predict_by_Zameen.com/Python files/House_Price_Prediction_with_KNN.pkl
+#/Users/usmanali/Uwindsor/AI/House_Price_Predict_by_Zameen.com/Data Cleaning, EDA and ML Models/House_Price_Prediction_with_KNN.pkl
 
 from flask import Flask, request, render_template
 import pickle
@@ -7,7 +7,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # Load the KNN model
-with open('/Users/usmanali/Uwindsor/AI/House_Price_Predict_by_Zameen.com/Flask_Server/Python files/House_Price_Prediction_model.pkl', 'rb') as model_file:
+with open('pickle files/House_Price_Prediction_model.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
 # Define unique values for one-hot encoding
