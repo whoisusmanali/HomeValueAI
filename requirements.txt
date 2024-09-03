@@ -1,7 +1,4 @@
 flask
 pandas
-sklearn
 scikit-learn
-sagemaker
 numpy
-ipykernel
