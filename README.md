@@ -331,7 +331,8 @@ To provide real-time access to the predictive capabilities of **HomeValueAI**, t
 
 ### Application Interface
 
-![Application Interface](https://github.com/user-attachments/assets/c033ec10-1797-4951-a6b6-bd28fbedece6)
+<img width="1470" alt="Screenshot 2024-09-04 at 7 21 45 PM" src="https://github.com/user-attachments/assets/373001fd-a83c-46d0-b4cd-af8ed145e61a">
+
 
 ### Exploratory Data Analysis (EDA)
 
