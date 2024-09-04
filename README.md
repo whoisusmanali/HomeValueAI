@@ -1,6 +1,9 @@
 
 # HomeValueAI
+### Demo
 
+For a live demo of the application, visit: [HomeValueAI](https://homevalueai-g6btghg2bwcjg8e5.northeurope-01.azurewebsites.net/)<br>
+Full Detail of Project on YouTube: [Videolink](https://youtu.be/qB1omCStv6o?si=al7owLBfUQEXLCvg)
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Getting Started](#getting-started)
@@ -8,6 +11,7 @@
   - [Installation](#installation)
   - [Running the Application](#running-the-application)
   - [Demo](#demo)
+  - [YoutubeVideo](#Demo)
 - [Data Collection and Preprocessing](#data-collection-and-preprocessing)
 - [Machine Learning Modeling](#machine-learning-modeling)
 - [Deployment and Web Application](#deployment-and-web-application)
@@ -152,9 +156,6 @@ http://127.0.0.1:5000/
 - **Prediction Page**: Displays the predicted property price based on user inputs.
 - **Visualization Dashboard**: Showcases interactive charts and graphs for data insights.
 
-### Demo
-
-For a live demo of the application, visit: [HomeValueAI Live Demo](https://homevalueai-g6btghg2bwcjg8e5.northeurope-01.azurewebsites.net/)
 
 ---
 
