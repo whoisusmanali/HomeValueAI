@@ -46,8 +46,13 @@ def predict():
 
     # Predict
     prediction = model.predict(df_encoded)
+    prediction = round(prediction[0][0], 1)
 
-    return render_template('index.html', prediction=prediction[0])
+    return render_template('index.html', prediction=prediction)
+
+@app.route('/about_us')
+def about_us():
+    return render_template('about_us.html')
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -154,7 +154,7 @@ http://127.0.0.1:5000/
 
 ### Demo
 
-For a live demo of the application, visit: [HomeValueAI Live Demo](https://homevalueai.onrender.com)
+For a live demo of the application, visit: [HomeValueAI Live Demo](https://homevalueai-g6btghg2bwcjg8e5.northeurope-01.azurewebsites.net/)
 
 ---
 
@@ -208,16 +208,12 @@ Building upon the clean and processed data, various machine learning models were
 
 - **XGBoost Regressor**
   - **Performance**:
-    - **MAE**: 15,000 PKR
-    - **RMSE**: 25,000 PKR
     - **R² Score**: 0.92
   - The model demonstrated superior performance due to its ability to handle complex non-linear relationships and manage overfitting effectively.
 
 **Model Serialization:**
 
 - The trained XGBoost model was serialized using **Pickle** for seamless integration into the web application.
-
-*All model training and evaluation processes are documented in the `models/` directory.*
 
 ---
 
@@ -234,7 +230,7 @@ To provide real-time access to the predictive capabilities of **HomeValueAI**, t
   - Designed with **HTML**, **CSS**, and **Bootstrap** for responsive and user-friendly interfaces.
   - Integrated interactive elements and form validations for enhanced user experience.
 - **Hosting**:
-  - Deployed on **Render**, offering scalable and reliable cloud infrastructure.
+  - Deployed on **Microsoft Azure**, offering scalable and reliable cloud infrastructure.
   - Configured continuous integration and deployment pipelines for streamlined updates.
   
 **Security and Performance:**
@@ -247,7 +243,7 @@ To provide real-time access to the predictive capabilities of **HomeValueAI**, t
 ## Technical Stack
 
 **Programming Languages & Frameworks:**
-- Python 3.8
+- Python 3.12
 - Flask
 - HTML5
 - CSS3
@@ -269,37 +265,16 @@ To provide real-time access to the predictive capabilities of **HomeValueAI**, t
 
 **Database & Storage:**
 - Microsoft SQL Server
-- SQLite (for lightweight storage needs within the application)
 
 **DevOps & Deployment:**
 - Git & GitHub
-- Render Cloud Platform
+- Microsoft Azure Cloud Platform
 - Gunicorn (WSGI HTTP Server)
-- Docker (optional for containerization)
 
 **Others:**
 - Pickle (for model serialization)
 - dotenv (for environment variable management)
 - virtualenv/conda (for environment management)
-
----
-
-## Dataset Details
-
-The dataset comprises comprehensive information about real estate listings, including:
-
-- **Property ID**: Unique identifier for each property listing.
-- **Location ID**: Identifier denoting specific areas within cities.
-- **Page URL**: Direct link to the property listing on Zameen.com.
-- **Property Type**: Categorized into House, FarmHouse, Upper Portion, Lower Portion, Flat, and Room.
-- **Price**: Listed price of the property in Pakistani Rupees (PKR).
-- **City**: Covers major cities including Lahore, Karachi, Faisalabad, Rawalpindi, and Islamabad.
-- **Province**: Provincial location corresponding to each city.
-- **Location**: Detailed address or locality information.
-- **Latitude and Longitude**: Geospatial coordinates facilitating location-based analyses.
-- **Additional Features**: Includes number of bedrooms, bathrooms, area size, amenities, and proximity to landmarks.
-
-*The dataset adheres to privacy and usage guidelines as stipulated by the data source.*
 
 ---
 
@@ -329,10 +304,8 @@ The dataset comprises comprehensive information about real estate listings, incl
   - Conducted aggregation, joins, and subqueries to restructure data effectively.
 - **Performance Optimization**:
   - Implemented indexing and query optimization techniques for efficient data retrieval.
-- **Integration with Python**:
-  - Used libraries like `pyodbc` and `SQLAlchemy` for seamless interaction between SQL Server and Python scripts.
 
-*Sample SQL scripts and queries are provided in the `sql/` directory.*
+*Sample SQL scripts and queries are provided in the `SQL Analysis and Cleaning/` directory.*
 
 ---
 
@@ -349,7 +322,7 @@ The dataset comprises comprehensive information about real estate listings, incl
 - **Stakeholder Reporting**:
   - Generated comprehensive reports facilitating data-driven decision-making.
 
-*Power BI files and exported visuals are available in the `visualizations/` directory.*
+*Power BI files and exported visuals are available in the `Visualization with Power BU/` directory.*
 
 ---
 
